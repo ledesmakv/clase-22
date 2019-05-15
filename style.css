@@ -1,0 +1,35 @@
+/* .main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+    border: 1px solid #000000;
+}
+
+@media (max-width: 600px) {
+    .main {
+        flex-direction: column;
+        align-items: center;
+        height: 800px;
+    }
+} */
+
+.footer {
+    background: coral;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fa-twitter-square {
+        display: none !important;
+    }
+}

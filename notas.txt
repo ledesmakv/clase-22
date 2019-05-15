@@ -1,0 +1,21 @@
+.svg vector de imagenes, crece con la resolucion a dif. de una imagen, por ende, nunca se deforma
+
+<i> ícono </i> etiqueta que recibe un ícono adentro (en caso de texto lo pone en itálica)
+librería -> conjunto de recursos
+
+framework -> entorno, adaptación de un lenguaje
+
+<i class="primera-clase segunda-clase"></i> -> una etiqueta puede tener dos clases, separadas por espacio
+
+.card, .main {} aplicar estilo a la clase card O la clase main
+.card .main {} el main que esta dentro de class
+
+.card.main {} a todo lo que tenga class Y main
+
+@font-face, ejemplo:
+@font-face {
+	font-family: FenomenalSans;
+	src: url(link);
+}
+
+todos los elementos tienen por defecto display:block o display: inline
